@@ -10,8 +10,10 @@
 .contents .cont2{width: 92%;  height: 1200px; position: relative; margin: 50px auto 0;} 
     .contents .cont2 li .txt1{font:normal 18px "Do Hyeon";margin-right: 10px; height: 40px; line-height: 50px;}
     .contents .cont2 li:first-child .txt2{display:inline;}
-    .contents .cont2 li .txt2{width: 60%; display:inline-block;  font:normal 16px "Malgun Gothic";margin:auto 5%;}
-    .contents .cont2 li .txt3{font:normal 14px "Malgun Gothic";margin-right:0px;}    
+    .contents .cont2 li:first-child .txt3{ margin-top:7px;}
+    .contents .cont2 li .txt2{width: 57%; display:inline-block;  font:normal 16px "Malgun Gothic";margin:auto 2%;}
+    .contents .cont2 li .txt3{font:normal 14px "Malgun Gothic";margin-right:0px;} 
+    
 }
     
 
