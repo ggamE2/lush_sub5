@@ -18,11 +18,10 @@
 
 
 
-
-.contents .cont2{width: 100%; position: relative; margin:50px auto 0;  height:800px;}
+.contents .cont2{width: 100%; position:relative; margin:50px auto 0;  height:800px;}
 
 .contents .cont2 ul{}
-.contents .cont2 li{width: 100%; display: block;  border-bottom: 1px solid #d5d5d5; margin-bottom: 30px;}
+.contents .cont2 li{width: 100%; position: relative; display: block;  border-bottom: 1px solid #d5d5d5; margin-bottom: 30px;}
 .contents .cont2 li span{margin-bottom: 10px;}
 .contents .cont2 li .txt1{font:normal 18px "Do Hyeon"; margin:auto 10% 0 5%;}
 .contents .cont2 li .txt2{font:normal 17px "Malgun Gothic";margin-right: 30%;}
