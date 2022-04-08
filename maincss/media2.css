@@ -2,7 +2,7 @@
 
 /* 모바일 */
 @media screen and (max-width:639px) {
- .contents{ height: 1200px; }
+ .contents{ height: 1280px; }
 .contents h2{font:bold 38px "Do Hyeon";}    
 .contents .cont1 ul{width: 60%; margin: 0 auto; }    
     
