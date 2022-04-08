@@ -1,0 +1,683 @@
+@charset "utf-8";
+/* base */
+body,ul,li,ol,dl,dt,dd,p,h1,h2,h3,h4,h5,h6{margin:0;padding:0;}
+body{font:normal 12px "맑은 고딕",Malgun Gothic,serif}
+ul{list-style:none;}
+img{border:0;vertical-align:top;}
+a{text-decoration:none; color:#000;}
+table{border-collapse:collapse}
+
+
+#wrap{width:100%; overflow: hidden;}
+
+/*header*/
+.header{position:relative;z-index:4;}
+
+/* header_menu_mt */
+.header .header_menu_mt{width:100%;height:50px;background:#000;}
+.header .header_menu_mt h1{text-align:center;}
+.header .header_menu_mt h1 img{width:100px; margin-top:10px;}
+.header .header_menu_mt .ic_menu{position:absolute;top:13px;left:10px; cursor:pointer; }
+
+/*header_menu_pc*/
+.header .header_menu_pc{width:100%; height:80px; background:#000; z-index:2;}
+.header .header_menu_pc .header_menu{margin:0 auto;width:1000px;}
+.header .header_menu_pc .header_menu h1{position: absolute; float:left; left: 150px;}
+.header .header_menu_pc .header_menu h1 img{width:150px; margin-top:18px;}
+.header .header_menu_pc .header_menu .nav{float:right;width: 850px; height: 30px; margin-top:50px; line-height:30px; color:#fff; z-index: 6; }
+
+.header .icon{float:right;}
+.header .icon li{float:left; margin-left:13px;}
+.header .icon li:first-child{margin-left:0;}
+.header .header_menu .user_icon{float: left; position: relative; top:4px;}
+.header .header_menu .user_icon img{width:20px;}
+.header .header_menu .search_icon{float: left; position: relative; top:4px;}
+.header .header_menu .search_icon img{width:20px;}
+
+/*소메뉴*/
+.header .gnb{position:relative;}
+.header .gnb>li{float:left;width:130px;background:#000;line-height: 30px;text-align: center;}
+.header .gnb>li>a{display: block; height:30px;color:#fff;font:normal 16px "Gowun Dodum";}
+
+.header .gnb>li:last-child{margin-right: 0;}
+
+.header .header_menu .nav .line{display:block; width: 0%; height:3px; top:27px; background: #fff; position: absolute; bottom: 10px; transition: all 0.5s;opacity: 0.5; }
+.header .header_menu .nav li:hover .line{width: 130px;}
+
+.header .sub{display:none; z-index:100;}
+.header .sub li{background: #000;}
+.header .sub li a{display: block; color:#fff; font: normal 14px "Gowun Dodum";}
+.header .sub li a:hover{background:#686868;color:#fff;}
+
+
+
+/*left_menu*/
+.left_menu {
+    width: 300px;
+    height: 100%;
+    background: #000;
+    position: fixed;
+    left: -300px;
+    top: 0;
+    z-index: 12;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+.left_menu li {}
+
+.left_menu li a {
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+
+.left_menu .nav_0 {
+    height: 29px;
+}
+
+.left_menu .nav_0 p {
+    width: 100%;
+    padding: 10px 0 15px 20px;
+}
+
+.left_menu .nav_0 p img {
+    width: 7%;
+}
+
+.left_menu .nav_0 .gnb li {
+    float: left;
+    width: 50%;
+    text-align: left;
+}
+
+.left_menu .nav_0 .gnb li:hover{background: rgba(255,255,255,0.5);
+}
+
+/*추가*/
+.left_menu .nav_0 li a {
+    font: bold 14px "Gowun Dodum";
+    line-height: 2;
+}
+
+.left_menu .nav_0 ul li {
+    position: relative;
+    width: 50%;
+}
+
+.left_menu .nav_0 .line {
+    display: block;
+    width: 0%;
+    height: 2px;
+    position: absolute;
+    bottom: 13px;
+    transition: all 0.5s;
+    margin-left: 20px;
+    top: 20px;
+    color:rgba(250, 227, 0, 1);
+}
+
+.left_menu .nav_0 li:hover .line {
+    width: 60%;
+}
+
+
+.left_menu .nav_1 {
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    background: #e1e1e1;
+    margin-top: 50px;
+}
+
+.left_menu .nav_1 a {
+    height: 70px;
+    line-height: 70px;
+   
+}
+
+.left_menu .nav_1 .gnb_1 {
+    padding:10px 10px;
+}
+
+.left_menu .nav_1 li {
+    float: left;
+    width: 20%;
+    margin-right:5.333333333333333%; 
+}
+.left_menu .nav_1 li:first-child{width: 23%   ;}
+
+.left_menu .nav_1 li:last-child {
+    margin-right: 0;
+}
+
+.left_menu .nav_1 li a {
+    color: #000;
+    font: bold 15px "Gowun Dodum"
+}
+
+.left_menu .nav_1 li a:hover {
+    color: #fff;
+}
+
+
+.left_menu .nav_2 ul {
+    margin-top: 30px;
+}
+
+.left_menu .nav_2 ul li {
+    position: relative;
+}
+
+.left_menu .nav_2 li a {
+    line-height: 3;
+    font: bold condensed 26px "Gowun Dodum";
+    color: #fff;
+}
+
+.left_menu .nav_2 .line {
+    display: block;
+    width: 0%;
+    height: 3px;
+    background:rgba(250, 227, 0, 1);
+    position: absolute;
+    bottom: 13px;
+    transition: all 0.5s;
+    margin-left: 20px;
+    top: 30px;
+}
+
+.left_menu .nav_2 li:hover .line {}
+
+.left_menu .nav_2 li.li1:hover .line {
+    width: 63px;
+}
+
+.left_menu .nav_2 li.li2:hover .line {
+    width: 110px;
+}
+
+.left_menu .nav_2 li.li3:hover .line {
+    width: 110px;
+}
+
+.left_menu .nav_2 li.li4:hover .line {
+    width: 63px;
+}
+
+.left_menu .nav_2 li.li5:hover .line {
+    width: 90px;
+}
+
+
+.left_menu .nav_8 ul {
+    margin-top: 50px;
+}
+
+.left_menu .nav_8 ul li {
+    position: relative;
+    float: left;
+    width: 45%;
+    text-align: center;
+}
+
+.left_menu .nav_8 li a {
+    color: #fff;
+    line-height: 5;
+    font: bold condensed 15px "Gowun Dodum";
+}
+
+.left_menu .nav_8 .line {
+    display: block;
+    left:35%;
+    width: 0%;
+    height: 2px;
+    background: #fae300;
+    position: absolute;
+    bottom: 13px;
+    transition: all 0.5s;
+    top: 21px;
+}
+
+.left_menu .nav_8 li:hover .line {
+    width: 50%;
+}
+
+
+.left_menu .nav_3 {
+    margin-top: 70px;
+    width: 100%;
+}
+
+.left_menu .nav_3 li {
+    padding: 0 0 0 20px;
+    ;
+    float: left;
+    margin: 0 auto;
+    margin-right: -10%;
+}
+
+.left_menu .nav_3 a {
+    color: #fff;
+    font: bold 14px "Gowun Dodum";
+}
+
+
+
+/*left_menu*/
+
+.left_menu .nav_3 ul li {
+    position: relative;
+}
+
+.left_menu .nav_3 li a {
+    line-height: 5;
+    font: bold condensed 14px "Gowun Dodum";
+}
+
+.left_menu .nav_3 .line {
+    display: block;
+    width: 0%;
+    height: 3px;
+    background: #fff;
+    position: absolute;
+    bottom: 13px;
+    transition: all 0.5s;
+    margin-left: 20px;
+    top: 23px;
+}
+
+.left_menu .nav_3 li:hover .line {
+    width: 50%;
+}
+
+
+.left_menu .left_logo{position:relative; margin-top: 150px; text-align:center;}
+.left_menu .left_logo img{width: 100px;}
+.left_menu .close {
+    position: absolute;
+    top: 7px;
+    right: 10px;
+    cursor: pointer;
+    filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(13deg) brightness(117%) contrast(116%);
+}
+
+.left_menu .close img {
+    width: 20px;
+}
+
+.black_back {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 11;
+    display: none;
+}
+
+/*검색창*/
+.search_box {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    z-index: 1800;
+    background: rgba(0, 0, 0, 0.7);
+    box-sizing: border-box;
+    border: none;
+    top: 80px;
+}
+
+.search_in {
+    margin: 0 auto;
+    width: 70%;
+    height: 40px;
+}
+
+.search_in .search_txt {
+    width: 60%;
+    height: 50px;
+    padding: 0;
+    font:bold 15px "Malgun Gothic";
+    box-sizing: border-box;
+    border: 1px solid #999;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.search_in .search_btn {
+    width: 16%;
+    height: 50px;
+    color: #fff;
+    font:normal 15px "Malgun Gothic";
+    float: right;
+    margin-right: 130px;
+    box-sizing: border-box;
+    border: none;
+    cursor: pointer;
+    background: #000;
+    margin-top: 20px;
+}
+
+.search_in .search_btn:hover {
+    background:#fadb03;
+    color: #000;
+}
+
+
+/*user_in*/
+.user_in {
+    display: none;
+    width: 500px;
+    height: 600px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 400px;
+    left: 50%;
+    background: rgba(255, 255, 255, 0.6);
+    box-sizing: border-box;
+    border: none;
+    z-index: 10;
+}
+
+.user_in h2 {
+    position: relative;
+    font: bold 23px "Bebas Neue";
+    text-align: center;
+    top: 20px;
+}
+
+.user_in h3 {
+    position: relative;
+    font: normal 14px "Bebas Neue";
+    top: 40px;
+    text-align: center;
+}
+
+.user_in .cont1 {
+    position: relative;
+    width: 400px;
+    top: 10%;
+    margin: 0 auto;
+    text-align: center;
+    z-index: 1100;
+}
+
+.user_in .close{position: absolute; top:3%; left:3%; box-sizing: border-box; cursor: pointer; z-index: 1350;}
+.user_in .close img{width:30px;}
+
+.user_in .cont1 .id {
+    position: relative;
+    width: 350px;
+    height: 50px;
+    line-height: 50px;
+    font: bold 20px "NanumGothic";
+    box-sizing: border-box;
+    border: 2px solid #d2d2d2;
+    padding: 0 10px;
+}
+
+.user_in .cont1 .pw {
+    position: relative;
+    width: 350px;
+    height: 50px;
+    line-height: 50px;
+    font: bold 20px "NanumGothic";
+    box-sizing: border-box;
+    border: 2px solid #d2d2d2;
+    padding: 0 10px;
+    margin-top: 10px;
+}
+
+.user_in .cont1 .btn {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    width: 350px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    padding-top:10px;
+    margin: 10px auto 0;
+    font: normal 20px "Bebas Neue";
+    transition: all 0.5s;
+    background:rgba(0,0,0,0.8);
+}
+
+.user_in .cont1 .btn a{color:#fff;}
+
+.user_in .cont1 .btn:hover {
+    width: 350px;
+    height: 50px;
+    background:rgba(255,255,255,0.5);
+    position: relative;
+    color: #000;
+}
+.user_in .cont1 .btn a:hover{color:#000;}
+
+
+.user_in .cont1 ul {
+    margin-top: 30px;
+}
+
+.user_in .cont1 ul li {
+    float: left;
+}
+
+.user_in .cont1 .id_save {
+    position: relative;
+    font: normal 15px "NanumGothic";
+    margin-right: 100px;
+}
+
+.user_in .cont1 .id_save input {
+    position: relative;
+}
+
+.user_in .cont1 .id_search {
+    position: relative;
+    font: normal 15px "NanumGothic";
+}
+
+.user_in .cont1 .pw_search {
+    position: relative;
+    font: normal 15px "NanumGothic";
+}
+
+.user_in .cont1 .line {
+    position: relative;
+    background: #d5d5d5;
+    width: 400px;
+    height: 1px;
+    top: 60px;
+}
+
+.user_in .cont1 .join {
+    position: relative;
+    top: 50px;
+    float: left;
+    font: bold 15px "NanumGothic";
+}
+
+.user_in .cont1 .join span {
+    position: relative;
+    font: bold 15px "NanumGothic";
+    margin-left: 120px;
+}
+
+.user_in .cont2 {
+    position: relative;
+    margin: 0 auto;
+    width: 380px;
+    top: 140px;
+    background: green;
+    text-align: center;
+}
+
+.user_in .cont2 ul {
+    position: relative;
+    width: 380px;
+    margin: 0 auto;
+}
+
+.user_in .cont2 ul li {
+    float: left;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.user_in .cont2 ul li:last-child {
+    margin-right: 0px;
+}
+
+.user_in .cont2 ul li a {
+    font: normal 16px "Bebas Neue";
+}
+
+.user_in .cont2 ul li img {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+
+
+/*left_menu*/
+.left_menu{width:300px;height:100%;background:#000;position:fixed;left:-300px;top:0;z-index:12;padding-top:10px;box-sizing:border-box;}
+
+
+
+
+/*footer*/
+.footer {
+    width: 100%;
+    overflow: hidden;
+    height: 400px;
+    background: #000;
+}
+
+.footer .foot1 {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    line-height: 40px;
+}
+
+.footer .foot1 .footer_menu1 {
+    margin: 0 auto;
+    width: 100%;
+    overflow: hidden;
+}
+
+.footer .foot1 .footer_menu1 li {
+    float: left;
+    text-align: center;
+}
+
+.footer .foot1 .footer_menu1 li:last-child {
+    margin-right: 0%;
+}
+
+.footer .foot1 ul li a:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+
+
+
+
+.footer .foot2 {
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    line-height: 1.8;
+    padding: 20px 0;
+}
+
+.footer .foot2>div {
+    float: left;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.footer .foot2>div .sns {}
+.footer .foot2>div .sns li{float:left;}
+.footer .foot2>div .sns li:hover{opacity: 0.8;}
+.footer .foot2>div .sns img {}
+
+
+
+.footer .foot2 .search_w {
+    position: relative;
+    overflow: hidden;
+}
+
+.footer .foot2 .search_w input {
+    position: relative;
+    float: left;
+    top: 0px;
+    height: 52px;
+    background: #ffff;
+    box-sizing: border-box;
+    border: #000000 solid;
+    padding: 0 10px;
+}
+
+
+.footer .foot2 .search_w .search_btn {
+    position: absolute;
+    float: right;
+    right: 22%;
+    top: 5px;
+    z-index: 500;
+    cursor: pointer;
+    height: 44px;
+   
+}
+
+.footer .foot2 .search_w .search_btn:hover{ filter: invert(93%) sepia(6%) saturate(4000%) hue-rotate(1deg) brightness(100%) contrast(100%);}
+
+.footer .foot2 .search_w .search_btn img {
+    width: 80px;
+}
+
+.footer .foot2 span {
+    color: #ffee7f;
+}
+
+.footer .foot3 {width: 100%;}
+
+.footer .foot3 .line {
+    position: relative;
+    width: 100%;
+    border-bottom: 2px solid #fff;
+    margin: 0 auto;
+}
+
+.footer .foot3 .logo_2 {
+    position: relative;
+    float:right;
+    width: 100%;
+    text-align: center; 
+}
+
+.footer .foot3 .logo_2 img{
+    width: 100px;
+}
+
+.footer .foot3 .txt4 {
+    color: #808080;
+    font-size: 10px;
+    text-align: center;
+}
+
+.footer .foot3 .txt5 {
+    color: #d2d2d2;
+    margin-top: 3px;
+    font-size: 12px;
+    text-align: center;
+}

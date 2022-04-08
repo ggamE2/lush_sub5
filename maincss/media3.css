@@ -1,0 +1,114 @@
+@charset "utf-8";
+
+/* 모바일 */
+@media screen and (max-width:639px) {
+.contents{ height: 2030px; }
+.contents h2{font:bold 38px "Do Hyeon";}    
+    
+.contents h3{font:normal 13px "Malgun Gothic";  } 
+    
+    
+/*cont1*/   
+.contents .cont1{width: 92%; position: relative; margin: 50px auto 0;} .contents .cont1 .search_01{position: absolute; left:7%; width: 12%; height:45px; margin: 25px auto; }
+.contents .cont1 .search_01 select{height: 45px;font:normal 15px "Malgun Gothic";}
+    
+.contents .cont1 .search_02{position: absolute; left:25%; height: 39px; margin:25px auto; width: 45%; }
+.contents .cont1 .search_02 input{width: 100%;height: 39px; line-height: 40px;font:bold 20px "Malgun Gothic";}
+
+.contents .cont1 .search_03{position: absolute; display: block; left:76%; width: 16%; height: 45px; background: #000; margin: 25px auto; color:#fff; font:normal 16px "Malgun Gothic"; }
+.contents .cont1 .search_03 a{display: block; height: 45px; box-sizing: border-box; text-align: center; line-height: 45px; margin: 0 auto; color: #fff; }   
+
+    
+/*cont2*/
+.contents .cont2{width: 100%; height: 30px; position: relative; margin:30px auto 0; }
+.contents .cont2 ul{width: 76%; margin: 0 auto; }
+.contents .cont2 li{text-align: center; width:32.66666666666667%; float: left; font:normal 14px "Malgun Gothic"; }   
+.contents .cont2 li:nth-child(2n){width: 0.5%;}        
+    
+    
+    
+/*cont3*/    
+.contents .cont3{width: 92%; position: relative; margin: 70px auto 0; height: 1080px;  }
+.contents .cont3 ul{width:100%;}
+.contents .cont3 li{width:48.5%; margin-right: 3%;}    
+.contents .cont3 li:nth-child(2n){margin-right: 0;}    
+.contents .cont3 li img{width: 100%;}    
+    
+    
+ /*menu*/
+.menu ul{position: absolute; left:41.5%;}    
+    
+    
+}
+    
+
+/*  태블릿:width 1023px 미만 640px 이상 */
+@media screen and (min-width:640px) and (max-width:1024px) {
+.contents{ height: 1400px; }
+.contents h2{font:bold 45px "Do Hyeon";}        
+.contents h3{font:normal 15px "Malgun Gothic";  }     
+    
+/*cont1*/    
+.contents .cont1{width: 86%; position: relative; margin: 50px auto 0; } 
+.contents .cont1 .search_01{position: absolute; left:9.5%; width: 11%; height:45px; margin: 25px auto; }
+.contents .cont1 .search_01 select{height: 45px;font:normal 15px "Malgun Gothic";}
+.contents .cont1 .search_02{position: absolute; left:24%; height: 39px; margin:25px auto; width: 45%; }
+.contents .cont1 .search_02 input{width: 100%;height: 39px; line-height: 40px;font:bold 20px "Malgun Gothic";}
+
+.contents .cont1 .search_03{position: absolute; display: block; left:75%; width: 16%; height: 45px; background: #000;margin: 25px auto; color:#fff; font:normal 16px "Malgun Gothic"; }
+
+    
+/*cont2*/
+.contents .cont2{width: 100%; height: 30px; position: relative; margin:30px auto 0; }
+.contents .cont2 ul{width: 60%; margin: 0 auto; }
+.contents .cont2 li{text-align: center; width: 30%;float: left; font:normal 15px "Malgun Gothic";}      
+.contents .cont2 li:nth-child(2n){width: 5%;}    
+
+/*cont3*/    
+.contents .cont3{width: 86%; position: relative; margin: 70px auto 0; height: 900px;  }
+.contents .cont3 ul{width:100%;}
+.contents .cont3 li{width:31.33333333333333%; margin-right: 3%;}   .contents .cont3 li .txt2{font:normal 14px "Malgun Gothic";}
+.contents .cont3 li:nth-child(3n){margin-right: 0;}    
+.contents .cont3 li img{width: 100%;}    
+
+    
+    
+    
+    
+    
+} 
+    
+
+/*pc*/
+@media all and (min-width:1024px) {
+    
+.contents{ height: 1900px; }
+.contents .cont1{width: 82%; position: relative; margin: 50px auto 0; }
+    
+.contents .cont1 .search_01{position: absolute; left:21%; width: 7%; height:45px; margin: 25px auto; }
+.contents .cont1 .search_01 select{height: 45px;font:normal 15px "Malgun Gothic";}
+
+.contents .cont1 .search_02{position: absolute; left:31%; height: 40px; margin: 25px auto; width: 34%; }
+.contents .cont1 .search_02 input{width: 100%;height: 40px; line-height: 40px; font:bold 20px "Malgun Gothic";}
+    
+.contents .cont1 .search_03{position: absolute; display: block; left:70%; width: 8%; height: 45px; background: #000;margin: 25px auto; color:#fff; font:normal 16px "Malgun Gothic"; }
+
+    
+.contents .cont2{width: 100%; height: 30px; position: relative; margin:30px auto 0; }
+.contents .cont2 ul{width: 42%; margin: 0 auto; }
+.contents .cont2 li{text-align: center; width: 32.66666666666667%; float: left; font:normal 17px "Malgun Gothic";}   
+.contents .cont2 li:nth-child(2n){width: 0.5%;}
+    
+.contents .cont3{width: 82%; position: relative; margin: 70px auto 0; height: 750px;  }
+.contents .cont3 ul{width:100%;}
+.contents .cont3 li{width:30.66666666666667%; margin-right: 4%;margin-bottom: 40px;}    
+.contents .cont3 li:nth-child(3n){margin-right: 0;}    
+.contents .cont3 li img{width: 100%;}
+.contents .cont3 li .txt1{font:bold 24px "BM HANNA Air"; margin-top: 5px; } 
+    
+    
+    
+    
+
+    
+}    

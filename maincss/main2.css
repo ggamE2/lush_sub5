@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+
+
+/*contents*/
+.contents{width: 100%; position: relative;margin: 0 auto;}
+.contents h2{font:bold 50px "Do Hyeon"; text-align: center; margin-top: 80px;}
+.contents h3{font:normal 16px "Malgun Gothic"; text-align: center; }
+
+.contents .cont1{width: 100%; margin-top: 50px; height: 30px; position: relative;}
+.contents .cont1 ul{width: 35%; margin: 0 auto; }
+.contents .cont1 li{text-align: center; width: 30%;float: left; font:normal 17px "Malgun Gothic";}
+.contents .cont1 li a{ color:#888888;}
+.contents .cont1 li:nth-child(3) a {color:#000;}
+.contents .cont1 li:nth-child(2n){width: 5%;}
+.contents .cont1 li:last-child{margin-right: 0;}
+
+
+
+
+
+.contents .cont2{width: 100%; position: relative; margin:50px auto 0;  height:800px;}
+
+.contents .cont2 ul{}
+.contents .cont2 li{width: 100%; display: block;  border-bottom: 1px solid #d5d5d5; margin-bottom: 30px;}
+.contents .cont2 li span{margin-bottom: 10px;}
+.contents .cont2 li .txt1{font:normal 18px "Do Hyeon"; margin:auto 10% 0 5%;}
+.contents .cont2 li .txt2{font:normal 17px "Malgun Gothic";margin-right: 30%;}
+.contents .cont2 li .txt2:hover{text-decoration: underline; border-color: #d2d2d2;}
+.contents .cont2 li .txt3{ float:right; margin-right: 40px; font:normal 17px "Malgun Gothic"; color:#888888; }
+
+.contents .cont2 li:first-child{background: #000; height: 40px;  line-height: 40px;}
+.contents .cont2 li:first-child span{font:normal 18px "Do Hyeon"; color:#fff; text-align: center; }
+.contents .cont2 li:first-child .txt3{ float:right; margin-right: 80px; font:normal 17px "Do Hyeon"; margin-top: 10px; } 
+.contents .cont2 li:first-child .txt2{margin-left: 30%;}
+
+
+
+.contents .menu{position: relative; width:100%; margin:50px auto 0; height:20px; text-align: center; font:normal 19px "Gowun Dodum";  }
+.contents .menu ul{position: absolute; transform: translate(-50%,-50%); left:50%;}
+.contents .menu ul li{float: left; margin-right: 10px}
+.contents .menu ul li:hover{text-decoration:underline; font:bold 17px "Gowun Dodum"; }
+
+
+
+
+
+
+
+
+
+
+/*moving*/
+.moving {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background: url(../images/moving_icon.png) 0 center / 500px repeat-x;
+    animation: movebg 5s linear infinite;
+    background: filter: invert(100%) sepia(0%) saturate(5479%) hue-rotate(345deg) brightness(115%) contrast(90%);
+}
+
+@keyframes movebg {
+    0% {
+        background-position: 0 center;
+    }
+
+    100% {
+        background-position: -500px center;
+    }
+
+    /*속도*/
+} 

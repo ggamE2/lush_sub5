@@ -1,0 +1,68 @@
+@charset "utf-8";
+
+
+
+/*contents*/
+.contents{width: 100%; position: relative;margin: 0 auto;;}
+.contents h2{font:bold 50px "Do Hyeon"; text-align: center; margin-top: 80px;}
+.contents h3{font:normal 16px "Malgun Gothic"; text-align: center; }
+
+
+/*cont1*/
+.contents .cont1{width: 100%; position: relative; margin:50px auto 0; background:#f8f8f8; height:100px;}
+
+.contents .cont1 .search_01{position: absolute; left:23%; width: 5%; height:45px; margin: 20px auto; }
+.contents .cont1 .search_01 select{height: 45px;font:normal 15px "Malgun Gothic";}
+
+.contents .cont1 .search_02{position: absolute; left:33%; height: 40px; margin: 20px auto; width: 34%; }
+.contents .cont1 .search_02 input{width: 100%;height: 40px; line-height: 40px;font:bold 20px "Malgun Gothic";}
+
+.contents .cont1 .search_03{position: absolute; display: block; left:70%; width: 8%; height: 45px; background: #000; margin: 30px auto 0; color:#fff; font:normal 16px "Malgun Gothic"; }
+.contents .cont1 .search_03 a{display: block; height: 45px; box-sizing: border-box; text-align: center; line-height: 45px; margin: 0 auto; color: #fff; }
+
+
+/*cont2*/
+.contents .cont2{width: 100%; height: 30px; position: relative;}
+.contents .cont2 ul{width: 35%; margin: 0 auto; }
+.contents .cont2 li{text-align: center; width: 30%;float: left; font:normal 17px "Malgun Gothic";}
+.contents .cont2 li a{ color:#888888;}
+.contents .cont2 li:nth-child(2n){width: 5%;}
+.contents .cont2 li:last-child{margin-right: 0;}
+
+
+
+/*cont3*/
+.contents .cont3{width: 100%; position: relative; margin:70px auto 0; }
+.contents .cont3 ul{}
+.contents .cont3 li{position: relative; float: left;}   
+.contents .cont3 li:hover{opacity: 0.8;}
+.contents .cont3 li img{width: 100%;}
+.contents .cont3 li .txt1{text-align: center; font:bold 20px "BM HANNA Air"; margin-top: 5px; }
+.contents .cont3 li .txt2{text-align: center; font:normal 16px "Malgun Gothic"; margin-top: 5px;}
+.contents .cont3 li .txt3{text-align: center; font:normal 14px "Malgun Gothic"; margin: 5px auto 50px;; color:#d2d2d2;}
+
+
+
+
+/*moving*/
+.moving {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background: url(../images/moving_icon.png) 0 center / 500px repeat-x;
+    animation: movebg 5s linear infinite;
+    background: filter: invert(100%) sepia(0%) saturate(5479%) hue-rotate(345deg) brightness(115%) contrast(90%);
+}
+
+@keyframes movebg {
+    0% {
+        background-position: 0 center;
+    }
+
+    100% {
+        background-position: -500px center;
+    }
+
+    /*속도*/
+} 
+    

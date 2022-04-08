@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+/* 모바일 */
+@media screen and (max-width:639px) {
+ .contents{ height: 1200px; }
+.contents h2{font:bold 38px "Do Hyeon";}    
+.contents .cont1 ul{width: 60%; margin: 0 auto; }    
+    
+/*cont1*/   
+.contents .cont2{width: 92%; position: relative; margin: 50px auto 0;} 
+   
+}
+    
+
+/*  태블릿:width 1023px 미만 640px 이상 */
+@media screen and (min-width:640px) and (max-width:1024px) {
+.contents{ height: 950px; }
+.contents h2{font:bold 45px "Do Hyeon";}         
+    
+    
+    
+    
+    
+} 
+    
+
+/*pc*/
+@media all and (min-width:1024px) {
+    
+.contents{ width: 100%; height: 1100px; }
+    .contents .cont1{}    
+.contents .cont2{width:85%;}
+
+  
+    
+    
+}    

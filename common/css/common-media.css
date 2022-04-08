@@ -1,0 +1,120 @@
+@charset "utf-8";
+
+
+
+
+/* 모바일 */
+@media screen and (max-width:639px){
+.header_menu_pc,.footer .foot3 .txt4 {display:none;}{display: none;}    
+.footer{height:500px;}     
+.footer .foot1 ul{width:80%; height: 90px; margin:0 auto;}     
+.footer .foot1 .footer_menu1 li{width:30%; margin-right: 5%;}
+.footer .foot1 .footer_menu1 li:nth-child(3){margin-right: 0;}
+.footer .foot1 .footer_menu1 li a{color:#fff; font: bold 14px "Gowun Dodum"; line-height: 20px;}       
+    
+    
+.footer .foot2 {width:96%; margin: 0 auto;}    
+.footer .foot2 >div{width: 80%;}
+ 
+.footer .foot2 .txt1 {font-size:14px; color: #fff;color: #fff; margin-bottom: 20px;}
+.footer .foot2 .txt2 {font-size:14px; color: #fff;}
+.footer .foot2 .txt3 {font-size:12px; color: #fff;}    
+        
+.footer .foot2 .search_w input{width: 95%;}   
+.footer .foot2 .search_w .search_btn{right:6%;}      
+.footer .foot2 .sns {width:40%;position: relative; top:-20px; float: left;}
+.footer .foot2 .sns li{width:18%; margin-right:2.5%;   }
+.footer .foot2 .sns li:last-child{margin-right: 0;}
+.footer .foot2 .sns li:hover{opacity: 0.8;}
+.footer .foot2 .sns img {
+    margin: 0 auto;
+    opacity: 0.5;
+    width:100%;
+}    
+.footer .foot3 .txt5{font-size:10px; margin-bottom: 5px;}      
+
+}
+
+
+
+
+/*  태블릿 width 1023px 미만 640px 이상 */
+@media screen and (min-width:640px) and (max-width:1024px){
+.header_menu_pc{display:none;}
+
+.footer{height:420px;}     
+.footer .foot1 ul{width:80%; height: 40px; margin:0 auto;}     
+.footer .foot1 .footer_menu1  li{width:15%; margin-right: 2%;}
+.footer .foot1 .footer_menu1  li a{color:#fff; font: bold 16px "Gowun Dodum";}     
+
+.footer .foot2 {width:80%; margin: 0 auto;} 
+.footer .foot2>div{width: 50%;}     
+.footer .foot2>div .sns {width:50%; position: relative; float: left;}
+.footer .foot2>div .sns li{float: left; width:20%;}
+.footer .foot2>div .sns li:hover{opacity: 0.8;}
+.footer .foot2>div .sns img {
+    margin: 0 auto;
+    opacity: 0.5;
+    width:90%;
+}     
+ 
+.footer .foot2 .txt1 {font-size:16px; color: #fff; color: #fff; margin-bottom: 20px;}
+.footer .foot2 .txt2 {font-size:16px; color: #fff;}
+.footer .foot2 .txt3 {font-size:14px; color: #fff;}       
+.footer .foot2 .sns{position: relative; top:-15px;}    
+    
+      
+.footer .foot2 .search_w input{width: 90%;}
+
+.footer .foot2 .search_w .search_btn {
+    right:11.5%;
+}
+
+.footer .foot3 .txt4 {margin-bottom: 10px;}     
+     
+}
+
+/* pc */
+@media all and (min-width:1024px){
+.header_menu_mt ,.footer_menu2{display:none;}
+
+.footer{height:400px;}
+.footer .foot1 .footer_menu1 li{width:15%; margin-right: 2%;} 
+.footer .foot1 .footer_menu1 li a{color:#fff; font: bold 18px "Gowun Dodum";}   
+.footer .foot1 ul{width:70%; height: 40px; margin:0 auto;}
+  
+
+    
+.footer .foot2 {width:80%; margin: 0 auto;}   
+.footer .foot2>div {width: 50%;} 
+.footer .foot2>div .txt1 {font-size:18px; color: #fff;color: #fff; margin-bottom: 20px;}
+.footer .foot2>div .txt2 {font-size:18px; color: #fff;}
+.footer .foot2>div .txt3 {font-size:16px; color: #fff;}    
+    
+.footer .foot2>div .search_w input{width: 80%;}
+
+
+.footer .foot2>div .search_w .search_btn {
+    right:21%;
+}
+    
+.footer .foot2>div .sns {width:37%; position: relative; float: left;}
+.footer .foot2>div .sns li{float: left; width:20%;}
+.footer .foot2>div .sns li:hover{opacity: 0.8;}
+.footer .foot2>div .sns img {
+    margin: 0 auto;
+    opacity: 0.5;
+    width:90%;
+}       
+
+.footer .foot3 p {
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+}
+    
+.footer .foot3 .txt4 {
+    margin-bottom: 10px;
+    }       
+   
+}
