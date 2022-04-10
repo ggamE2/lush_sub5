@@ -9,13 +9,13 @@
     
     
 /*cont1*/   
-.contents .cont1{width: 92%; position: relative; margin: 50px auto 0;} .contents .cont1 .search_01{position: absolute; left:7%; width: 12%; height:45px; margin: 25px auto; }
+.contents .cont1{width: 92%; position: relative; margin: 50px auto 0;} .contents .cont1 .search_01{position: absolute; left:5%; width: 11%; height:45px; margin: 25px auto; }
 .contents .cont1 .search_01 select{height: 45px;font:normal 15px "Malgun Gothic";}
     
-.contents .cont1 .search_02{position: absolute; left:25%; height: 39px; margin:25px auto; width: 45%; }
+.contents .cont1 .search_02{position: absolute; left:23%; height: 39px; margin:25px auto; width: 40%; }
 .contents .cont1 .search_02 input{width: 100%;height: 39px; line-height: 40px;font:bold 20px "Malgun Gothic";}
 
-.contents .cont1 .search_03{position: absolute; display: block; left:76%; width: 16%; height: 45px; background: #000; margin: 25px auto; color:#fff; font:normal 16px "Malgun Gothic"; }
+.contents .cont1 .search_03{position: absolute; display: block; left:78%; width: 16%; height: 45px; background: #000; margin: 25px auto; color:#fff; font:normal 16px "Malgun Gothic"; }
 .contents .cont1 .search_03 a{display: block; height: 45px; box-sizing: border-box; text-align: center; line-height: 45px; margin: 0 auto; color: #fff; }   
 
     
